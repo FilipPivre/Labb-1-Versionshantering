@@ -6,9 +6,9 @@ bool isRunning = true;
 
 while (isRunning)
 {
-    DisplayMenu();
+    DisplayMenu(); //Går in i menyn
 
-    ReadInput();
+    ReadInput(); //Går in i Readinput
 }
 
 void DisplayMenu() //Skriver ut menyn
@@ -19,7 +19,7 @@ void DisplayMenu() //Skriver ut menyn
 
 }
 
-void ReadInput()
+void ReadInput() //Skriver ut valet som användaren gör
 {
     switch (Int32.Parse(Console.ReadLine()))
     {
